@@ -29,4 +29,4 @@ async def soma(interaction:discord.Interaction, numero1:int,numero2:int):
     numero_somado = numero1 + numero2
     await interaction.response.send_message(f"Olá, {interaction.user.mention}! O resultado da sua soma é {numero_somado}")
 
-bot.run("MTM0MDg2NzcxNjM3NDA3MzQwNg.G3w1pC.3ug00S4nGSqkikpWE_FIoioREIFHWMwNjTJ00s")
+bot.run("token")
